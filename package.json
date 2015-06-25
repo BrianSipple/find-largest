@@ -1,0 +1,20 @@
+{
+  "name": "find-largest",
+  "version": "1.0.0",
+  "description": "Find the name of the largest file in a directory",
+  "main": "find-largest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "files",
+    "largest",
+    "finder"
+  ],
+  "author": "Brian Sipple",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "q": "^1.4.1"
+  }
+}
