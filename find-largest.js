@@ -33,7 +33,7 @@ function computeLargestFile(filesAndStats) {
 }
 
 
-api.findLargest = function findLargest (dir) {
+api = function find (dir) {
 
     return fs_readdir(dir)
         .then(function (files) {

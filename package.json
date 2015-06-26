@@ -2,6 +2,7 @@
   "name": "find-largest",
   "version": "1.0.0",
   "description": "Find the name of the largest file in a directory",
+  "repository": "https://github.com/BrianSipple/find-largest.git",
   "main": "find-largest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,9 @@
   "dependencies": {
     "minimist": "^1.1.1",
     "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
   }
 }
